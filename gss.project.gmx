@@ -118,7 +118,7 @@
       </scripts>
       <scripts name="room_level2">
         <script>scripts\scr_room_level2_create.gml</script>
-        <script>scripts\scr_room_level2_step.gml</script>
+        <script>scripts\scr_room_level2_draw.gml</script>
       </scripts>
     </scripts>
   </scripts>
@@ -162,6 +162,9 @@
         <object>objects\obj_piece_ammo</object>
         <object>objects\ob_piece_repos</object>
       </objects>
+    </objects>
+    <objects name="interface">
+      <object>objects\obj_interface_player</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -3,7 +3,10 @@ var selec;
 if(id == global.idEntiteSelectionnee) selec = true;
 else selec = false;
 
-draw_sprite(icone_interface,selec,global.WIN_W-110,10+numPlayer*110);
+with(icone_interface) {
+ x = view_xview[0] + global.WIN_W-110;
+ y = view_yview[0] + 10+other.numPlayer*110;
+}
 
 if(selec) {
     var haut_boite = 10+numPlayer*110

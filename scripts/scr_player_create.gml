@@ -30,7 +30,8 @@ case 1:
     animation_attack[global.DROITE] = spr_player1_attack_droite;
     animation_attack[global.HAUT] = spr_player1_attack_gauche; //
     
-    icone_interface = spr_perso1_interface;
+    icone_interface = instance_create(-1,-1,obj_interface_player);
+    with(icone_interface) { player_id = other.id; }
     break;
 default:
     //erreur
