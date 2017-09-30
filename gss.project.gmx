@@ -106,6 +106,7 @@
     <scripts name="zombie">
       <script>scripts\scr_zombie_create.gml</script>
       <script>scripts\scr_zombie_move.gml</script>
+      <script>scripts\scr_zombie_fight.gml</script>
     </scripts>
     <scripts name="rooms">
       <script>scripts\scr_room_create.gml</script>
@@ -143,6 +144,15 @@
     </objects>
     <objects name="rooms">
       <object>objects\obj_room</object>
+      <objects name="pieces">
+        <object>objects\obj_piece</object>
+        <object>objects\obj_piece_soin</object>
+        <object>objects\obj_piece_tir</object>
+        <object>objects\obj_piece_carburant</object>
+        <object>objects\obj_piece_nourriture</object>
+        <object>objects\obj_piece_ammo</object>
+        <object>objects\ob_piece_repos</object>
+      </objects>
       <objects name="room_test">
         <object>objects\obj_room_test</object>
         <objects name="salles">
@@ -152,15 +162,6 @@
       </objects>
       <objects name="room_level2">
         <object>objects\obj_room_level2</object>
-      </objects>
-      <objects name="pieces">
-        <object>objects\obj_piece</object>
-        <object>objects\obj_piece_soin</object>
-        <object>objects\obj_piece_tir</object>
-        <object>objects\obj_piece_carburant</object>
-        <object>objects\obj_piece_nourriture</object>
-        <object>objects\obj_piece_ammo</object>
-        <object>objects\ob_piece_repos</object>
       </objects>
     </objects>
   </objects>
